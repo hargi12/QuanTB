@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.msh.org/quantb/model/medicine"
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:mdic="http://www.msh.org/quantb/model/medicine"
+	xmlns:qgen="http://www.msh.org/etbm/quantification/common" xmlns:pref="http://www.msh.org/quantb/model/gen">
+
+	<import schemaLocation="DataTypes.xsd" namespace="http://www.msh.org/quantb/model/gen"></import>
+	<annotation>
+		<documentation>This schema represents Medicines Dictionary
+		</documentation>
+	</annotation>
+
+
+	<complexType name="Medicines">
+		<sequence>
+			<element name="medicines" type="pref:Medicine" minOccurs="0"
+				maxOccurs="unbounded">
+			</element>
+			<element name="stamp" type="pref:SimpleStamp"></element>
+		</sequence>
+		
+	</complexType>
+
+	<element name="medicines" type="mdic:Medicines"></element>
+
+
+</schema>

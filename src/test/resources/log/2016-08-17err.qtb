@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ErrorLog xmlns:ns2="http://www.msh.org/quantb/model/errorlog">
+    <name>2016-08-17err</name>
+    <records>
+        <date>2016-08-17T12:18:28.465+03:00</date>
+        <message>unhandled error</message>
+        <user></user>
+        <stack>java.lang.ClassCastException: org.jfree.chart.renderer.category.BarRenderer cannot be cast to org.jfree.chart.renderer.category.StackedBarRenderer&#xD;
+	at org.msh.quantb.view.panel.StockGraphPanel.paintBars(StockGraphPanel.java:253)&#xD;
+	at org.msh.quantb.view.panel.StockGraphPanel.paintGraph(StockGraphPanel.java:171)&#xD;
+	at org.msh.quantb.view.panel.StockGraphPanel.recalcGraph(StockGraphPanel.java:421)&#xD;
+	at org.msh.quantb.view.panel.StockGraphPanel.access$0(StockGraphPanel.java:414)&#xD;
+	at org.msh.quantb.view.panel.StockGraphPanel$1.actionPerformed(StockGraphPanel.java:116)&#xD;
+	at javax.swing.JComboBox.fireActionEvent(JComboBox.java:1260)&#xD;
+	at javax.swing.JComboBox.setSelectedItem(JComboBox.java:588)&#xD;
+	at javax.swing.JComboBox.setSelectedIndex(JComboBox.java:624)&#xD;
+	at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(BasicComboPopup.java:835)&#xD;
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)&#xD;
+	at java.awt.Component.processMouseEvent(Component.java:6516)&#xD;
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3320)&#xD;
+	at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(BasicComboPopup.java:499)&#xD;
+	at java.awt.Component.processEvent(Component.java:6281)&#xD;
+	at java.awt.Container.processEvent(Container.java:2229)&#xD;
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)&#xD;
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)&#xD;
+	at java.awt.Component.dispatchEvent(Component.java:4698)&#xD;
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)&#xD;
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)&#xD;
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)&#xD;
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)&#xD;
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)&#xD;
+	at java.awt.Component.dispatchEvent(Component.java:4698)&#xD;
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:735)&#xD;
+	at java.awt.EventQueue.access$200(EventQueue.java:103)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:694)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:692)&#xD;
+	at java.security.AccessController.doPrivileged(Native Method)&#xD;
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)&#xD;
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)&#xD;
+	at java.awt.EventQueue$4.run(EventQueue.java:708)&#xD;
+	at java.awt.EventQueue$4.run(EventQueue.java:706)&#xD;
+	at java.security.AccessController.doPrivileged(Native Method)&#xD;
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)&#xD;
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:705)&#xD;
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)&#xD;
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)&#xD;
+</stack>
+    </records>
+</ns2:ErrorLog>

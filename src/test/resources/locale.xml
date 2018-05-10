@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:CurrentLocale xmlns:ns2="http://www.msh.org/quantb/model/locale/">
+    <country></country>
+    <lang></lang>
+    <doNotShowHelp>false</doNotShowHelp>
+    <pathToFiles>D:\lib\msh\quantification\QuanTBTest\Mongolia20180206</pathToFiles>
+</ns2:CurrentLocale>

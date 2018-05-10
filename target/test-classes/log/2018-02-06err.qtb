@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ErrorLog xmlns:ns2="http://www.msh.org/quantb/model/errorlog">
+    <name>2018-02-06err</name>
+    <records>
+        <date>2018-02-06T17:30:31.835+02:00</date>
+        <message>unhandled error</message>
+        <user></user>
+        <stack>java.lang.IndexOutOfBoundsException: Index: 11, Size: 11&#xD;
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)&#xD;
+	at java.util.ArrayList.get(ArrayList.java:411)&#xD;
+	at org.jdesktop.observablecollections.ObservableCollections$ObservableListImpl.get(ObservableCollections.java:275)&#xD;
+	at org.msh.quantb.view.ForecastingRegimensNewCasesModel.getValueAt(ForecastingRegimensNewCasesModel.java:76)&#xD;
+	at javax.swing.JTable.getValueAt(JTable.java:2717)&#xD;
+	at javax.swing.JTable.prepareRenderer(JTable.java:5719)&#xD;
+	at org.pushingpixels.substance.internal.ui.SubstanceTableUI.paintCell(SubstanceTableUI.java:1033)&#xD;
+	at org.pushingpixels.substance.internal.ui.SubstanceTableUI.paintCells(SubstanceTableUI.java:921)&#xD;
+	at org.pushingpixels.substance.internal.ui.SubstanceTableUI.paint(SubstanceTableUI.java:755)&#xD;
+	at org.pushingpixels.substance.internal.ui.SubstanceTableUI.__org__pushingpixels__substance__internal__ui__SubstanceTableUI__update(SubstanceTableUI.java:2537)&#xD;
+	at org.pushingpixels.substance.internal.ui.SubstanceTableUI.update(SubstanceTableUI.java)&#xD;
+	at javax.swing.JComponent.paintComponent(JComponent.java:778)&#xD;
+	at javax.swing.JComponent.paint(JComponent.java:1054)&#xD;
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)&#xD;
+	at javax.swing.JComponent.paint(JComponent.java:1063)&#xD;
+	at javax.swing.JViewport.paint(JViewport.java:731)&#xD;
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)&#xD;
+	at javax.swing.JComponent.paint(JComponent.java:1063)&#xD;
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)&#xD;
+	at javax.swing.JComponent.paint(JComponent.java:1063)&#xD;
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)&#xD;
+	at javax.swing.JComponent.paint(JComponent.java:1063)&#xD;
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)&#xD;
+	at javax.swing.JComponent.paint(JComponent.java:1063)&#xD;
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)&#xD;
+	at javax.swing.JComponent.paint(JComponent.java:1063)&#xD;
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)&#xD;
+	at javax.swing.JComponent.paint(JComponent.java:1063)&#xD;
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)&#xD;
+	at javax.swing.JComponent.paint(JComponent.java:1063)&#xD;
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)&#xD;
+	at javax.swing.JComponent.paint(JComponent.java:1063)&#xD;
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5219)&#xD;
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:295)&#xD;
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1249)&#xD;
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5167)&#xD;
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4978)&#xD;
+	at javax.swing.RepaintManager$3.run(RepaintManager.java:808)&#xD;
+	at javax.swing.RepaintManager$3.run(RepaintManager.java:796)&#xD;
+	at java.security.AccessController.doPrivileged(Native Method)&#xD;
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)&#xD;
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:796)&#xD;
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:769)&#xD;
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:718)&#xD;
+	at javax.swing.RepaintManager.access$1100(RepaintManager.java:62)&#xD;
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1677)&#xD;
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312)&#xD;
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)&#xD;
+	at java.awt.EventQueue.access$200(EventQueue.java:103)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:694)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:692)&#xD;
+	at java.security.AccessController.doPrivileged(Native Method)&#xD;
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)&#xD;
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)&#xD;
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)&#xD;
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)&#xD;
+</stack>
+    </records>
+</ns2:ErrorLog>

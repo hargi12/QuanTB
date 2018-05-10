@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.msh.org/quantb/model/errorlog" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:err="http://www.msh.org/quantb/model/errorlog">
+    <annotation>
+    	<documentation>Complex types for errors logging and ErrorLog itself</documentation></annotation>
+    <complexType name="LogRecord">
+    	<sequence>
+    		<element name="date" type="dateTime"></element>
+    		<element name="message" type="string"></element>
+    		<element name="user" type="string"></element>
+    		<element name="stack" type="string"></element>
+    	</sequence>
+    </complexType>
+
+
+    <complexType name="ErrorLog">
+    	<sequence>
+    		<element name="name" type="string"></element>
+    		<element name="records" type="err:LogRecord"
+    			maxOccurs="unbounded" minOccurs="1">
+    		</element>
+    	</sequence>
+    </complexType>
+
+    <element name="ErrorLog" type="err:ErrorLog"></element>
+</schema>

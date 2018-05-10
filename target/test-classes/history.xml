@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:forecastLast5 xmlns:ns2="http://www.msh.org/quantb/model/forecast">
+    <ns2:forecastFile>
+        <ns2:name>22222.qtb</ns2:name>
+        <ns2:path>D:\workspace_mars\quantification\src\test\resources\doc</ns2:path>
+    </ns2:forecastFile>
+    <ns2:forecastFile>
+        <ns2:name>бюджет 2 полугодие 2018вввв.qtb</ns2:name>
+        <ns2:path>D:\lib\msh\quantification\QuanTBTest\20171019Kirg</ns2:path>
+    </ns2:forecastFile>
+    <ns2:forecastFile>
+        <ns2:name>KGZ Dec 2017_bug.qtb</ns2:name>
+        <ns2:path>D:\lib\msh\quantification\QuanTBTest\2017Dec</ns2:path>
+    </ns2:forecastFile>
+    <ns2:forecastFile>
+        <ns2:name>NCCD_6FebExclGovTender.qtb</ns2:name>
+        <ns2:path>D:\lib\msh\quantification\QuanTBTest\Mongolia20180206</ns2:path>
+    </ns2:forecastFile>
+    <ns2:forecastFile>
+        <ns2:name>NCCD_Problemfile_6Feb2018.qtb</ns2:name>
+        <ns2:path>D:\lib\msh\quantification\QuanTBTest\Mongolia20180206</ns2:path>
+    </ns2:forecastFile>
+</ns2:forecastLast5>

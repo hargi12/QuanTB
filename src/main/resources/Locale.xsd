@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.msh.org/quantb/model/locale/" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:loc="http://www.msh.org/quantb/model/locale/"><annotation>
+	<documentation>This schema represents data that passes between QuanTB runs. Such are Language, the most recent folder with Quantification data, etc</documentation></annotation>
+    <complexType name="localeSaved">
+    	<sequence>
+    		<element name="country" type="string"></element>
+    		<element name="lang" type="string"></element>
+    		<element name="doNotShowHelp" type="boolean">
+    			<annotation>
+    				<documentation>
+    					If false - show customization help on startup.
+    					Reverse logic is for compatibility with previous
+    					environment
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="pathToFiles" type="string"></element>
+    	</sequence>
+
+    </complexType>
+
+
+    <element name="CurrentLocale" type="loc:localeSaved"></element>
+</schema>

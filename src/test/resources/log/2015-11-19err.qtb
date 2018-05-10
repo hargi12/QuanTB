@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ErrorLog xmlns:ns2="http://www.msh.org/quantb/model/errorlog">
+    <name>2015-11-19err</name>
+    <records>
+        <date>2015-11-19T10:47:00.788+02:00</date>
+        <message>unhandled error</message>
+        <user></user>
+        <stack>java.lang.Error: Unresolved compilation problem: 
+	The constructor NumericFilter() is undefined
+&#xD;
+	at org.msh.quantb.view.dialog.ForecastingOrderDlg.&lt;init&gt;(ForecastingOrderDlg.java:201)&#xD;
+	at org.msh.quantb.view.mvp.ViewFactory.showForecastingOrderDlg(ViewFactory.java:577)&#xD;
+	at org.msh.quantb.services.mvp.Presenter.openForEditForecastingOrder(Presenter.java:1531)&#xD;
+	at org.msh.quantb.view.panel.ForecastingDocumentPanel$6.mousePressed(ForecastingDocumentPanel.java:402)&#xD;
+	at java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:280)&#xD;
+	at java.awt.Component.processMouseEvent(Component.java:6513)&#xD;
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)&#xD;
+	at java.awt.Component.processEvent(Component.java:6281)&#xD;
+	at java.awt.Container.processEvent(Container.java:2229)&#xD;
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)&#xD;
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)&#xD;
+	at java.awt.Component.dispatchEvent(Component.java:4698)&#xD;
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)&#xD;
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4489)&#xD;
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)&#xD;
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)&#xD;
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)&#xD;
+	at java.awt.Component.dispatchEvent(Component.java:4698)&#xD;
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)&#xD;
+	at java.awt.EventQueue.access$300(EventQueue.java:103)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:706)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:704)&#xD;
+	at java.security.AccessController.doPrivileged(Native Method)&#xD;
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)&#xD;
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)&#xD;
+	at java.awt.EventQueue$4.run(EventQueue.java:720)&#xD;
+	at java.awt.EventQueue$4.run(EventQueue.java:718)&#xD;
+	at java.security.AccessController.doPrivileged(Native Method)&#xD;
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)&#xD;
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)&#xD;
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)&#xD;
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)&#xD;
+</stack>
+    </records>
+</ns2:ErrorLog>

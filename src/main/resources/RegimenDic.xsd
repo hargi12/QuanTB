@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.msh.org/quantb/model/regimen"
+	elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:regdic="http://www.msh.org/quantb/model/regimen" xmlns:Q1="http://www.msh.org/quantb/model/gen">
+
+	<import schemaLocation="DataTypes.xsd" namespace="http://www.msh.org/quantb/model/gen"></import>
+	<annotation>
+		<documentation>
+			This schema represents Regimens Dictionary
+		</documentation>
+	</annotation>
+	<complexType name="Regimens">
+		<sequence>
+			<element name="regimen" type="Q1:Regimen" minOccurs="0"
+				maxOccurs="unbounded">
+			</element>
+			<element name="stamp" type="Q1:SimpleStamp"></element>
+		</sequence>
+	</complexType>
+
+
+	<element name="regimens" type="regdic:Regimens"></element>
+</schema>

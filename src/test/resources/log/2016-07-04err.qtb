@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ErrorLog xmlns:ns2="http://www.msh.org/quantb/model/errorlog">
+    <name>2016-07-04err</name>
+    <records>
+        <date>2016-07-04T14:14:19.443+03:00</date>
+        <message>unhandled error</message>
+        <user></user>
+        <stack>java.lang.NullPointerException&#xD;
+	at org.msh.quantb.view.panel.DetailsPanel$1.actionPerformed(DetailsPanel.java:105)&#xD;
+	at javax.swing.JComboBox.fireActionEvent(JComboBox.java:1258)&#xD;
+	at javax.swing.JComboBox.setSelectedItem(JComboBox.java:586)&#xD;
+	at javax.swing.JComboBox.setSelectedIndex(JComboBox.java:622)&#xD;
+	at javax.swing.plaf.basic.BasicComboPopup$Handler.mouseReleased(BasicComboPopup.java:852)&#xD;
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)&#xD;
+	at java.awt.Component.processMouseEvent(Component.java:6535)&#xD;
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)&#xD;
+	at javax.swing.plaf.basic.BasicComboPopup$1.processMouseEvent(BasicComboPopup.java:501)&#xD;
+	at java.awt.Component.processEvent(Component.java:6300)&#xD;
+	at java.awt.Container.processEvent(Container.java:2236)&#xD;
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)&#xD;
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)&#xD;
+	at java.awt.Component.dispatchEvent(Component.java:4713)&#xD;
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)&#xD;
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)&#xD;
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)&#xD;
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)&#xD;
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)&#xD;
+	at java.awt.Component.dispatchEvent(Component.java:4713)&#xD;
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)&#xD;
+	at java.awt.EventQueue.access$500(EventQueue.java:97)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:709)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:703)&#xD;
+	at java.security.AccessController.doPrivileged(Native Method)&#xD;
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)&#xD;
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)&#xD;
+	at java.awt.EventQueue$4.run(EventQueue.java:731)&#xD;
+	at java.awt.EventQueue$4.run(EventQueue.java:729)&#xD;
+	at java.security.AccessController.doPrivileged(Native Method)&#xD;
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)&#xD;
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)&#xD;
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)&#xD;
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)&#xD;
+</stack>
+    </records>
+</ns2:ErrorLog>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ErrorLog xmlns:ns2="http://www.msh.org/quantb/model/errorlog">
+    <name>2016-08-15err</name>
+    <records>
+        <date>2016-08-15T12:26:26.526+03:00</date>
+        <message>unhandled error</message>
+        <user></user>
+        <stack>java.lang.NullPointerException&#xD;
+	at org.msh.quantb.services.calc.DeliveryOrdersControl.buildDeliveryDates(DeliveryOrdersControl.java:148)&#xD;
+	at org.msh.quantb.services.calc.DeliveryOrdersControl.buildAllExact(DeliveryOrdersControl.java:110)&#xD;
+	at org.msh.quantb.services.mvp.Presenter.exportToExcel(Presenter.java:1625)&#xD;
+	at org.msh.quantb.view.window.MainWindow$5$1.run(MainWindow.java:193)&#xD;
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312)&#xD;
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)&#xD;
+	at java.awt.EventQueue.access$200(EventQueue.java:103)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:694)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:692)&#xD;
+	at java.security.AccessController.doPrivileged(Native Method)&#xD;
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)&#xD;
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)&#xD;
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)&#xD;
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)&#xD;
+</stack>
+    </records>
+</ns2:ErrorLog>

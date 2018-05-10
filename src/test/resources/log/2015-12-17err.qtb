@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ErrorLog xmlns:ns2="http://www.msh.org/quantb/model/errorlog">
+    <name>2015-12-17err</name>
+    <records>
+        <date>2015-12-17T10:19:43.766+02:00</date>
+        <message>unhandled error</message>
+        <user></user>
+        <stack>java.lang.StringIndexOutOfBoundsException: String index out of range: 29&#xD;
+	at java.lang.String.substring(String.java:1963)&#xD;
+	at org.msh.quantb.services.excel.POIProcessor.createSheet(POIProcessor.java:373)&#xD;
+	at org.msh.quantb.services.excel.ExportXLSX.createGeneral(ExportXLSX.java:53)&#xD;
+	at org.msh.quantb.services.mvp.Presenter.exportToExcel(Presenter.java:1608)&#xD;
+	at org.msh.quantb.view.window.MainWindow$5$1.run(MainWindow.java:192)&#xD;
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)&#xD;
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)&#xD;
+	at java.awt.EventQueue.access$500(EventQueue.java:97)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:709)&#xD;
+	at java.awt.EventQueue$3.run(EventQueue.java:703)&#xD;
+	at java.security.AccessController.doPrivileged(Native Method)&#xD;
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)&#xD;
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)&#xD;
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)&#xD;
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)&#xD;
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)&#xD;
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)&#xD;
+</stack>
+    </records>
+</ns2:ErrorLog>
