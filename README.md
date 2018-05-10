@@ -13,4 +13,4 @@ The QuanTB software, documentation and other products, information, materials an
 
 Copyright Management Sciences for Health.
 
-See the [QuanTB_Build_Instructions.pdf] file for information on how to build the software.
+See the [https://github.com/MSH/QuanTB/blob/devel/QuanTB_Build_Instructions.pdf] file for information on how to build the software.
